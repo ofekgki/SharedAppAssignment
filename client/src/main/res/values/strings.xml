@@ -14,6 +14,8 @@
     <string name="BTN_action">Place Order</string>
 
     <string name="action_clicked">Customer placing order…</string>
+    <string name="action_clicked_already">Order already placed!</string>
+
 
 
 </resources>

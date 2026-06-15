@@ -13,6 +13,8 @@ import com.example.common.databinding.ActivityMainBaseBinding
 open class MainActivityBase : AppCompatActivity() {
     private lateinit var binding: ActivityMainBaseBinding
 
+    private var actionPlaced = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBaseBinding.inflate(layoutInflater)
@@ -24,8 +26,15 @@ open class MainActivityBase : AppCompatActivity() {
             insets
         }
 
+        SoundManager.init(this)
+
         findViewById<Button>(R.id.BTN_action).setOnClickListener {
-            onActionClicked()
+            if (!actionPlaced) {
+                onActionClicked()
+            } else {
+                Toast.makeText(this, getString(R.string.action_clicked_already), Toast.LENGTH_SHORT).show()
+                SoundManager.playSound(R.raw.sound_fail)
+            }
         }
     }
 
@@ -33,7 +42,9 @@ open class MainActivityBase : AppCompatActivity() {
         binding.LBLStatus.text = getString(R.string.LBL_status)
         binding.LBLStatusTitle.text = getString(R.string.LBL_statusTitle)
         Toast.makeText(this, getString(R.string.action_clicked), Toast.LENGTH_SHORT).show()
-        playSound(R.raw.sound_action)
+        SoundManager.playSound(R.raw.sound_action)
+
+        actionPlaced = true
 
     }
 }

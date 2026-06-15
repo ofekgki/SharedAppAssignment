@@ -14,5 +14,6 @@
     <string name="BTN_action">NA</string>
 
     <string name="action_clicked">Base action clicked!</string>
+    <string name="action_clicked_already">Base action clicked already!</string>
 
 </resources>
