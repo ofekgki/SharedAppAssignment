@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/color_background"
+    android:id="@+id/MainActivity_Base">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/LBL_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LBL_title"
+            android:textColor="@color/color_primary_dark"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/LBL_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LBL_description"
+            android:textColor="@color/color_text_secondary"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="32dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/LBL_orderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LBL_orderTitle"
+            android:textColor="@color/color_text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/base_LBL_orderDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LBL_orderDetails"
+            android:textColor="@color/color_text_primary"
+            android:background="@color/color_order_section_background"
+            android:textSize="16sp"
+            android:maxLines="2"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/LBL_statusTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LBL_statusTitle_waiting"
+            android:textColor="@color/color_text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/LBL_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/LBL_status_waiting"
+            android:textColor="@color/color_primary_dark"
+            android:background="@color/color_status_background"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="24dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/IMG_order"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/order_photo"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="24dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/BTN_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BTN_action"
+            android:textColor="@color/color_button_text"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            app:backgroundTint="@color/color_button_background"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

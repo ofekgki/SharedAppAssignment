@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Client</string>
+
+    <string name="LBL_title">Quick Delivery - Customer</string>
+    <string name="LBL_description">The customer can place a new order.</string>
+    <string name="LBL_orderTitle">Example order:</string>
+    <string name="LBL_orderDetails">1x Pizza, 2x Cola\nDeliver to: 123 Main St</string>
+    <string name="LBL_statusTitle">Status : Order placed</string>
+    <string name="LBL_status">Order placed and waiting for courier.</string>
+
+    <string name="LBL_status_waiting">Waiting for client to place order</string>
+    <string name="LBL_statusTitle_waiting">Status : Order Waiting to be placed</string>
+
+    <string name="BTN_action">Place Order</string>
+
+    <string name="action_clicked">Customer placing order…</string>
+
+
+</resources>

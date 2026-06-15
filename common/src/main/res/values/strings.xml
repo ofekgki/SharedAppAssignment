@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="LBL_title">NA</string>
+    <string name="LBL_description">NA</string>
+    <string name="LBL_orderTitle">No Order</string>
+    <string name="LBL_orderDetails">No Order To Display</string>
+    <string name="LBL_statusTitle">Status : NA</string>
+    <string name="LBL_status">NA</string>
+
+    <string name="LBL_status_waiting">NA</string>
+    <string name="LBL_statusTitle_waiting">Status : NA</string>
+
+
+    <string name="BTN_action">NA</string>
+
+    <string name="action_clicked">Base action clicked!</string>
+
+</resources>

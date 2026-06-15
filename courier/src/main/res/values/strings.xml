@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Courier</string>
+
+    <string name="LBL_title">Quick Delivery - Courier</string>
+    <string name="LBL_description">The courier can collect an existing order.</string>
+    <string name="LBL_orderTitle">Example order waiting for pickup:</string>
+    <string name="LBL_orderDetails">1x Pizza, 2x Cola\nPickup at: Pizza Hut</string>
+    <string name="LBL_statusTitle">Status : Order picked up</string>
+    <string name="LBL_status">Order has been picked up by courier.</string>
+
+    <string name="LBL_status_waiting">Waiting for courier to pick up order</string>
+    <string name="LBL_statusTitle_waiting">Status : Order Waiting</string>
+
+    <string name="BTN_action">Pick Up Order</string>
+
+
+    <string name="action_clicked">Courier picking up order…</string>
+
+
+</resources>

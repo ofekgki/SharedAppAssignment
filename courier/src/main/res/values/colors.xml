@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App main colors (Courier - Vibrant Blue Palette) -->
+    <color name="color_primary">#007AFF</color>
+    <color name="color_primary_dark">#005ECB</color>
+    <color name="color_accent">#FFCC00</color>
+
+    <!-- Background colors -->
+    <color name="color_background">#F0F8FF</color>
+    <color name="color_card_background">#FFFFFF</color>
+
+    <!-- Text colors -->
+    <color name="color_text_primary">#001F3F</color>
+    <color name="color_text_secondary">#4A6078</color>
+    <color name="color_text_on_primary">#FFFFFF</color>
+
+    <!-- Section colors -->
+    <color name="color_order_section_background">#E6F2FF</color>
+    <color name="color_status_background">#CCE5FF</color>
+
+    <!-- Status colors -->
+    <color name="color_status_waiting">#FFF3CD</color>
+    <color name="color_status_success">#D4EDDA</color>
+    <color name="color_status_error">#F8D7DA</color>
+
+    <!-- Button colors -->
+    <color name="color_button_background">#007AFF</color>
+    <color name="color_button_text">#FFFFFF</color>
+</resources>
