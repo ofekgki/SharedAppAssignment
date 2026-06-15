@@ -15,7 +15,8 @@ This repository is organized into three main modules:
 *   **Code Sharing**: Uses a shared base activity (`MainActivityBase`) to handle the shared logic, insets, and click actions.
 *   **Resource Sharing**: Both apps use shared colors, dimensions, and base strings from the `common` module, overriding only what is specific to each app.
 
-## Screenshots
+## Screenshots & Video
+For video demonstration check the *docs folder* in the project files.
 
 Here is a look at the two applications built from this single shared codebase:
 
